@@ -1,6 +1,8 @@
 # Hangman
 A  fully functional Python Game of Hangman
 
+![enter image description here](https://github.com/bhargavyagnik/Hangman/blob/main/img/load.jpg?raw=true)
+
 Algorithm 
 ```
 1. Initialize chance = max_chances
