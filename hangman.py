@@ -81,9 +81,9 @@ if __name__=='__main__':
     letters_known = []
     words = read_words('words.txt')
     word = list(str(random_picker(words)).lower())
-    print(word)
+    print("You have to guess {} letter".format(len(word)))
     while chances>0:
-        print(convert_unknown(word,letters_known))
+        print(" ".join(convert_unknown(word,letters_known)))
         letter = str(input("Guess a letter: ")).lower()
         if len(letter)==0 or letter.isalpha()==False or len(letter)>1:
             continue
